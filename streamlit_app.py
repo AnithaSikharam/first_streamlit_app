@@ -1,5 +1,5 @@
 import streamlit
-streamlit.title('My Parents New Healthy Diner')
+streamlit.title('My Mom's New Healthy Diner')
 
 streamlit.header(' Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Bluberry Oatmeal')
@@ -19,3 +19,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page.
 
 streamlit.dataframe(fruits_to_show)
+
+
