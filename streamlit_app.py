@@ -26,6 +26,5 @@ def get_fruityvice_data(this_fruit_choice):
 	
 #New Section to display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice!')
-  fruit_choice = streamlit.text_input('What fruit would you like information about?')
    back_from_function = get_fruityvice_data('kiwi')
 	streamlit.dataframe(back_from_function)
