@@ -45,6 +45,8 @@ streamlit.write('Thanks for adding', add_my_fruit)
 my_cur.execute("Insert into fruit_load_list values ('test')")
 
 streamlit.write('What fruit would you like to add?')
+streamlit.write('The user entered ', fruit_choice)
+
 
 
 
