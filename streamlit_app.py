@@ -66,3 +66,4 @@ my_cur.execute("Insert into fruit_load_list values ('test')")
 
 
 
+
