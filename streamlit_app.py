@@ -40,7 +40,7 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
 delete_my_fruit('fruit_name')
-my_cur.execute("delete from fruit_load_list values ('"+jackfruit+'")")
+my_cur.execute("delete from fruit_load_list values ('"+delete_my_fruit+'")")
 
 
 
