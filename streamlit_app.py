@@ -42,12 +42,6 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
-import streamlit
-import pandas
-import requests
-import snowflake.connector
-from urllib.error import URLError
-
 
 #New Section to display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice!')
